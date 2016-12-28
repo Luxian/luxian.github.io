@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Brick Game</title>
+		<link type="text/css" rel="stylesheet" href="style.css" media="all" />
+	</head>
+	<body>
+		<div id="game">
+
+			<h1 id="t">Brick Game</h1>
+
+			<div id="c"><!-- working area --></div>
+
+			<div id="preview"><div class="t"><!-- next tetrimon preview --></div></div>
+
+			<div id="info">
+				<p class="e">Score: <span class="v" id="s">0</span></p>
+				<p class="e">Level: <span class="v" id="l">0</span></p>
+				<p class="e">Lines: <span class="v" id="lines">0</span></p>
+			</div>
+
+			<div id="general">
+				<ul>
+					<li><a href="javascript:tetris.start()">&radic; Start</a></li>
+					<li><a href="javascript:tetris.pause()">&minus; Pause</a></li>
+				</ul>
+			</div>
+
+			<div class="copy">&copy; Lucian NEAG<br/>made in Switzerland<br/>:-)</div>
+
+
+			<div id="b">
+				<ul>
+					<li><a href="javascript:tetris.shift_left();">&larr;</a></li>
+					<li><a href="javascript:tetris.shift_right();">&rarr;</a></li>
+					<li><a href="javascript:tetris.rotate();">&uarr;</a></li>
+					<li><a href="javascript:tetris.fast_fall();">&darr;</a></li>
+				</ul>
+			</div>
+
+		</div><!-- // #game -->
+
+		<script src="js/jquery.js"></script>
+		<script src="js/patterns.js"></script>
+		<script src="js/tetrisGame.js"></script>
+		<script src="js/tetrisPiece.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,7 @@
+
+- conditia de final de joc
+- initializare automata la page load (css trick maybe)
+- buton de pause
+- dezactivare butoane pana se apasa start
+- culori diferite pentru fiecare model
+- daca rotatia iese din ecran, muta tetrimonul si fa totusi rotatia
